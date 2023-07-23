@@ -1,0 +1,50 @@
+public class HelloUser {
+    public static void hellouser() {
+        System.debug('Yashwant Patil');
+    }
+}
+Note : 1. We have to store a name of the class (ex : HelloUser.apxc)
+For Output, go to debug and click on open window anonynomous window and paste the code 'HelloUser.hellouser();'
+click on the open log check box, it must be tick
+now click on execute button and wait 
+tick the debug only option
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q. 2) How to create a simple calculator using integer and operatos ?
+ANS) public class FirstCalculator {
+            public static void add() 
+            {
+                integer a= 10, b=20;
+                integer sum=a+b;
+                System.debug('Addition of a & b is'+sum);             
+            }
+                public static void sub() 
+            {
+                integer a= 30, b=15;
+                integer sub=a-b;
+                System.debug('Substraction of a & b is'+sub);             
+            }
+                public static void mul() 
+            {
+                integer a= 9, b=5;
+                integer mul=a*b;
+                System.debug('Multiplication of a & b is'+mul);             
+            }
+                public static void div() 
+            {
+                integer a= 60, b=12;
+                integer div=a/b;
+                System.debug('Division of a & b is'+div);             
+            }
+}
+
+Enter apex code :
+FirstCalculator.add();
+FirstCalculator.sub();
+FirstCalculator.mul();
+FirstCalculator.div();
+
+Output :
+Addition of a & b is30
+Substraction of a & b is15
+Multiplication of a & b is45
+Division of a & b is5
